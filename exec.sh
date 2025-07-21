@@ -245,4 +245,4 @@ printf $CYN"Updating bootloader  ...$END"
     grub2-mkconfig -o /etc/grub2.cfg || printf $RED"Failed to update grub ..."$END && sleep 2
 
 printf $CYN"Setup complete!"$END
-fastfetch -c neofetch
+fastfetch
